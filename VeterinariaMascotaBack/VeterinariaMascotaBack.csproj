@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VeterinariaAtencionBack\VeterinariaAtencionBack.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dominio\" />
+  </ItemGroup>
+
+</Project>
