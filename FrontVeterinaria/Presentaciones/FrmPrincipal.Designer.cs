@@ -79,10 +79,9 @@ namespace FrontVeterinaria.Presentaciones
             this.pnlMenu.Controls.Add(this.pnlLogo);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
-            this.pnlMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pnlMenu.MinimumSize = new System.Drawing.Size(275, 0);
+            this.pnlMenu.MinimumSize = new System.Drawing.Size(241, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(277, 803);
+            this.pnlMenu.Size = new System.Drawing.Size(242, 562);
             this.pnlMenu.TabIndex = 0;
             // 
             // panel1
@@ -90,10 +89,9 @@ namespace FrontVeterinaria.Presentaciones
             this.panel1.Controls.Add(this.lblDate);
             this.panel1.Controls.Add(this.lblTime);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 710);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 492);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(277, 93);
+            this.panel1.Size = new System.Drawing.Size(242, 70);
             this.panel1.TabIndex = 8;
             // 
             // lblDate
@@ -104,9 +102,9 @@ namespace FrontVeterinaria.Presentaciones
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblDate.Location = new System.Drawing.Point(25, 56);
+            this.lblDate.Location = new System.Drawing.Point(22, 42);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(53, 19);
+            this.lblDate.Size = new System.Drawing.Size(41, 16);
             this.lblDate.TabIndex = 9;
             this.lblDate.Text = "Fecha";
             this.lblDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -119,9 +117,9 @@ namespace FrontVeterinaria.Presentaciones
             this.lblTime.AutoSize = true;
             this.lblTime.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblTime.Location = new System.Drawing.Point(25, 19);
+            this.lblTime.Location = new System.Drawing.Point(22, 14);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(86, 37);
+            this.lblTime.Size = new System.Drawing.Size(67, 28);
             this.lblTime.TabIndex = 8;
             this.lblTime.Text = "Hora";
             // 
@@ -137,11 +135,10 @@ namespace FrontVeterinaria.Presentaciones
             this.btnInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInfo.IconSize = 32;
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInfo.Location = new System.Drawing.Point(0, 589);
-            this.btnInfo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnInfo.Location = new System.Drawing.Point(0, 440);
             this.btnInfo.Name = "btnInfo";
-            this.btnInfo.Padding = new System.Windows.Forms.Padding(11, 0, 23, 0);
-            this.btnInfo.Size = new System.Drawing.Size(277, 67);
+            this.btnInfo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnInfo.Size = new System.Drawing.Size(242, 50);
             this.btnInfo.TabIndex = 7;
             this.btnInfo.Text = "Acerca de";
             this.btnInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,11 +158,10 @@ namespace FrontVeterinaria.Presentaciones
             this.btnConsAten.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnConsAten.IconSize = 32;
             this.btnConsAten.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConsAten.Location = new System.Drawing.Point(0, 522);
-            this.btnConsAten.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnConsAten.Location = new System.Drawing.Point(0, 390);
             this.btnConsAten.Name = "btnConsAten";
-            this.btnConsAten.Padding = new System.Windows.Forms.Padding(11, 0, 23, 0);
-            this.btnConsAten.Size = new System.Drawing.Size(277, 67);
+            this.btnConsAten.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnConsAten.Size = new System.Drawing.Size(242, 50);
             this.btnConsAten.TabIndex = 6;
             this.btnConsAten.Text = "Consulta Atenciones";
             this.btnConsAten.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -185,11 +181,10 @@ namespace FrontVeterinaria.Presentaciones
             this.btnNuevaAten.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnNuevaAten.IconSize = 32;
             this.btnNuevaAten.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevaAten.Location = new System.Drawing.Point(0, 455);
-            this.btnNuevaAten.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnNuevaAten.Location = new System.Drawing.Point(0, 340);
             this.btnNuevaAten.Name = "btnNuevaAten";
-            this.btnNuevaAten.Padding = new System.Windows.Forms.Padding(11, 0, 23, 0);
-            this.btnNuevaAten.Size = new System.Drawing.Size(277, 67);
+            this.btnNuevaAten.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnNuevaAten.Size = new System.Drawing.Size(242, 50);
             this.btnNuevaAten.TabIndex = 5;
             this.btnNuevaAten.Text = "Nueva Atención";
             this.btnNuevaAten.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -209,11 +204,10 @@ namespace FrontVeterinaria.Presentaciones
             this.btnAltaMascota.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAltaMascota.IconSize = 32;
             this.btnAltaMascota.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAltaMascota.Location = new System.Drawing.Point(0, 388);
-            this.btnAltaMascota.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAltaMascota.Location = new System.Drawing.Point(0, 290);
             this.btnAltaMascota.Name = "btnAltaMascota";
-            this.btnAltaMascota.Padding = new System.Windows.Forms.Padding(11, 0, 23, 0);
-            this.btnAltaMascota.Size = new System.Drawing.Size(277, 67);
+            this.btnAltaMascota.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnAltaMascota.Size = new System.Drawing.Size(242, 50);
             this.btnAltaMascota.TabIndex = 4;
             this.btnAltaMascota.Text = "Alta Mascota";
             this.btnAltaMascota.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -233,11 +227,10 @@ namespace FrontVeterinaria.Presentaciones
             this.btnAltaCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAltaCliente.IconSize = 32;
             this.btnAltaCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAltaCliente.Location = new System.Drawing.Point(0, 321);
-            this.btnAltaCliente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAltaCliente.Location = new System.Drawing.Point(0, 240);
             this.btnAltaCliente.Name = "btnAltaCliente";
-            this.btnAltaCliente.Padding = new System.Windows.Forms.Padding(11, 0, 23, 0);
-            this.btnAltaCliente.Size = new System.Drawing.Size(277, 67);
+            this.btnAltaCliente.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnAltaCliente.Size = new System.Drawing.Size(242, 50);
             this.btnAltaCliente.TabIndex = 3;
             this.btnAltaCliente.Text = "Alta Cliente";
             this.btnAltaCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -257,11 +250,10 @@ namespace FrontVeterinaria.Presentaciones
             this.btnAltaUser.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnAltaUser.IconSize = 32;
             this.btnAltaUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAltaUser.Location = new System.Drawing.Point(0, 254);
-            this.btnAltaUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAltaUser.Location = new System.Drawing.Point(0, 190);
             this.btnAltaUser.Name = "btnAltaUser";
-            this.btnAltaUser.Padding = new System.Windows.Forms.Padding(11, 0, 23, 0);
-            this.btnAltaUser.Size = new System.Drawing.Size(277, 67);
+            this.btnAltaUser.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnAltaUser.Size = new System.Drawing.Size(242, 50);
             this.btnAltaUser.TabIndex = 2;
             this.btnAltaUser.Text = "Alta Usuario";
             this.btnAltaUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -281,11 +273,10 @@ namespace FrontVeterinaria.Presentaciones
             this.btnInicio.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInicio.IconSize = 32;
             this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.Location = new System.Drawing.Point(0, 187);
-            this.btnInicio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnInicio.Location = new System.Drawing.Point(0, 140);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Padding = new System.Windows.Forms.Padding(11, 0, 23, 0);
-            this.btnInicio.Size = new System.Drawing.Size(277, 67);
+            this.btnInicio.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnInicio.Size = new System.Drawing.Size(242, 50);
             this.btnInicio.TabIndex = 1;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,18 +289,16 @@ namespace FrontVeterinaria.Presentaciones
             this.pnlLogo.Controls.Add(this.pictureBox1);
             this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLogo.Location = new System.Drawing.Point(0, 0);
-            this.pnlLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlLogo.Name = "pnlLogo";
-            this.pnlLogo.Size = new System.Drawing.Size(277, 187);
+            this.pnlLogo.Size = new System.Drawing.Size(242, 140);
             this.pnlLogo.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FrontVeterinaria.Properties.Resources.Logo_Vet_Tr;
-            this.pictureBox1.Location = new System.Drawing.Point(25, 24);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 137);
+            this.pictureBox1.Size = new System.Drawing.Size(158, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -323,10 +312,9 @@ namespace FrontVeterinaria.Presentaciones
             this.pnlBarra.Controls.Add(this.lblBarra);
             this.pnlBarra.Controls.Add(this.iconBarra);
             this.pnlBarra.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlBarra.Location = new System.Drawing.Point(277, 0);
-            this.pnlBarra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlBarra.Location = new System.Drawing.Point(242, 0);
             this.pnlBarra.Name = "pnlBarra";
-            this.pnlBarra.Size = new System.Drawing.Size(765, 107);
+            this.pnlBarra.Size = new System.Drawing.Size(670, 80);
             this.pnlBarra.TabIndex = 1;
             this.pnlBarra.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarra_Paint);
             // 
@@ -338,11 +326,9 @@ namespace FrontVeterinaria.Presentaciones
             this.btnClose.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
             this.btnClose.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnClose.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnClose.IconSize = 37;
-            this.btnClose.Location = new System.Drawing.Point(724, 5);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnClose.Location = new System.Drawing.Point(635, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(37, 43);
+            this.btnClose.Size = new System.Drawing.Size(32, 32);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.btnClose.TabIndex = 4;
             this.btnClose.TabStop = false;
@@ -356,11 +342,9 @@ namespace FrontVeterinaria.Presentaciones
             this.btnMax.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
             this.btnMax.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnMax.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMax.IconSize = 37;
-            this.btnMax.Location = new System.Drawing.Point(691, 5);
-            this.btnMax.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMax.Location = new System.Drawing.Point(606, 4);
             this.btnMax.Name = "btnMax";
-            this.btnMax.Size = new System.Drawing.Size(37, 43);
+            this.btnMax.Size = new System.Drawing.Size(32, 32);
             this.btnMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.btnMax.TabIndex = 3;
             this.btnMax.TabStop = false;
@@ -374,11 +358,9 @@ namespace FrontVeterinaria.Presentaciones
             this.btnMin.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             this.btnMin.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnMin.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMin.IconSize = 37;
-            this.btnMin.Location = new System.Drawing.Point(654, 5);
-            this.btnMin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMin.Location = new System.Drawing.Point(573, 4);
             this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(37, 43);
+            this.btnMin.Size = new System.Drawing.Size(32, 32);
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.btnMin.TabIndex = 2;
             this.btnMin.TabStop = false;
@@ -389,9 +371,9 @@ namespace FrontVeterinaria.Presentaciones
             this.lblBarra.AutoSize = true;
             this.lblBarra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblBarra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblBarra.Location = new System.Drawing.Point(57, 39);
+            this.lblBarra.Location = new System.Drawing.Point(50, 29);
             this.lblBarra.Name = "lblBarra";
-            this.lblBarra.Size = new System.Drawing.Size(54, 19);
+            this.lblBarra.Size = new System.Drawing.Size(43, 16);
             this.lblBarra.TabIndex = 1;
             this.lblBarra.Text = "Inicio";
             // 
@@ -402,11 +384,9 @@ namespace FrontVeterinaria.Presentaciones
             this.iconBarra.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.iconBarra.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.iconBarra.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconBarra.IconSize = 37;
-            this.iconBarra.Location = new System.Drawing.Point(19, 28);
-            this.iconBarra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.iconBarra.Location = new System.Drawing.Point(17, 21);
             this.iconBarra.Name = "iconBarra";
-            this.iconBarra.Size = new System.Drawing.Size(37, 43);
+            this.iconBarra.Size = new System.Drawing.Size(32, 32);
             this.iconBarra.TabIndex = 0;
             this.iconBarra.TabStop = false;
             // 
@@ -416,10 +396,9 @@ namespace FrontVeterinaria.Presentaciones
             this.pnlEscritorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlEscritorio.Controls.Add(this.lblFecha);
             this.pnlEscritorio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlEscritorio.Location = new System.Drawing.Point(277, 107);
-            this.pnlEscritorio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pnlEscritorio.Location = new System.Drawing.Point(242, 80);
             this.pnlEscritorio.Name = "pnlEscritorio";
-            this.pnlEscritorio.Size = new System.Drawing.Size(765, 696);
+            this.pnlEscritorio.Size = new System.Drawing.Size(670, 482);
             this.pnlEscritorio.TabIndex = 2;
             // 
             // lblFecha
@@ -427,9 +406,8 @@ namespace FrontVeterinaria.Presentaciones
             this.lblFecha.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblFecha.Image = global::FrontVeterinaria.Properties.Resources.background_5;
             this.lblFecha.Location = new System.Drawing.Point(0, 0);
-            this.lblFecha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(765, 696);
+            this.lblFecha.Size = new System.Drawing.Size(670, 482);
             this.lblFecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.lblFecha.TabIndex = 0;
             this.lblFecha.TabStop = false;
@@ -440,13 +418,12 @@ namespace FrontVeterinaria.Presentaciones
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 803);
+            this.ClientSize = new System.Drawing.Size(912, 562);
             this.Controls.Add(this.pnlEscritorio);
             this.Controls.Add(this.pnlBarra);
             this.Controls.Add(this.pnlMenu);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FrmPrincipal";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -492,5 +469,7 @@ namespace FrontVeterinaria.Presentaciones
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer tmrEscritorio;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lbl_usuario;
+        private System.Windows.Forms.Label label1;
     }
 }

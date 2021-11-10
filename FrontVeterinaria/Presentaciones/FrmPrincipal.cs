@@ -184,7 +184,7 @@ namespace FrontVeterinaria.Presentaciones
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Seguro de abandonar la aplicación ?",
+            if (MessageBox.Show("¿Seguro de abandonar la aplicación ?",
                 "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question,
                 MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                    Application.Exit();

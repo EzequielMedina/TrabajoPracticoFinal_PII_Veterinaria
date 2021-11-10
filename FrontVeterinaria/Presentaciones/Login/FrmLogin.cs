@@ -17,7 +17,7 @@ namespace FrontVeterinaria.Presentacion
         private ILoginService loginService;
         private Veterinario oVeterinario;
         private int cerrar = 0;
-
+        
         public FrmLogin()
         {
             InitializeComponent();
@@ -107,7 +107,7 @@ namespace FrontVeterinaria.Presentacion
         {
             if (cerrar == 0)
             {
-                if (MessageBox.Show("Seguro de abandonar la aplicación ?",
+                if (MessageBox.Show("¿Seguro de abandonar la aplicación ?",
                   "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question,
                    MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                     cerrar = 1;
